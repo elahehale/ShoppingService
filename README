@@ -1,0 +1,18 @@
+- This project uses postgreSQL
+- Provide configuration of databse in models/setup.go
+- Resgister request body 
+     {
+    "username":"username",
+    "password":"password"
+    }
+- JWT authentication 
+- The data field of Basket is saved as JSON
+- Sample create basket request body
+    {
+    "data": {
+            "key1": "a",
+            "key2": "b",
+            "key3": 42
+        },
+    "state": "PENDING"
+    }
